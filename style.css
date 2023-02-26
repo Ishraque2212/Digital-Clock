@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://mcdn.wallpapersafari.com/medium/51/43/YZuGTL.jpg);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    font-family: "montserrat", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+
+.time span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time span {
+    width: 180px;
+    height: 50px;
+    color: #faf8f8;
+    background-color: #008c9e;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#min {
+    background-color: #6fb40a;
+}
+
+#se{
+    background-color: #c54800;
+}
+
+#per {
+    background-color: #22a568;
+}
+
+#hour {
+    height: 150px;
+    color: #faf8f8;
+    background-color: #00b2cb;
+    font-size: 90px;
+    font-weight: 700;
+}
+#minute {
+    height: 150px;
+    color: #faf8f8;
+    background-color: #8ee80e;
+    font-size: 90px;
+    font-weight: 700;
+}
+#sec {
+    height: 150px;
+    color: #faf8f8;
+    background-color: #ff5d00;
+    font-size: 90px;
+    font-weight: 700;
+}
+#period {
+    height: 150px;
+    color: #faf8f8;
+    background-color: #2ad587;
+    font-size: 90px;
+    font-weight: 700;
+}
